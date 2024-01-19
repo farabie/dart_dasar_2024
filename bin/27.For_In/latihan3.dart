@@ -10,7 +10,7 @@ void main() {
   int totalKinerja = 0;
   double ratarataKinerja = 0;
   for(pegawai in dataPegawai) {
-    var namaPegawai = pegawai['nama'];
+    // var namaPegawai = pegawai['nama'];
     int nilaiKinerja = pegawai['nilaiKinerja'];
     totalKinerja += nilaiKinerja;
 
